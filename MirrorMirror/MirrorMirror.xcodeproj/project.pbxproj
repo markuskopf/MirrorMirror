@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758E50C6129B204F0083D373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C5129B204F0083D373 /* UIKit.framework */; };
+		758E50C8129B204F0083D373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C7129B204F0083D373 /* Foundation.framework */; };
+		758E50CA129B204F0083D373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C9129B204F0083D373 /* CoreGraphics.framework */; };
+		758E50CF129B204F0083D373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 758E50CD129B204F0083D373 /* InfoPlist.strings */; };
+		758E50D1129B204F0083D373 /* MirrorMirror-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758E50D0129B204F0083D373 /* MirrorMirror-main.m */; };
+		758E50D4129B204F0083D373 /* MirrorMirrorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758E50D3129B204F0083D373 /* MirrorMirrorAppDelegate.m */; };
+		758E50D7129B204F0083D373 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758E50D5129B204F0083D373 /* MainWindow.xib */; };
+		758E50DA129B204F0083D373 /* MirrorMirrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758E50D9129B204F0083D373 /* MirrorMirrorViewController.m */; };
+		758E50DD129B204F0083D373 /* MirrorMirrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758E50DB129B204F0083D373 /* MirrorMirrorViewController.xib */; };
+		758E50E5129B204F0083D373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C5129B204F0083D373 /* UIKit.framework */; };
+		758E50E6129B204F0083D373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C7129B204F0083D373 /* Foundation.framework */; };
+		758E50E7129B204F0083D373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758E50C9129B204F0083D373 /* CoreGraphics.framework */; };
+		758E50EB129B204F0083D373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 758E50EA129B204F0083D373 /* InfoPlist.strings */; };
+		758E50ED129B20500083D373 /* MirrorMirrorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 758E50EC129B20500083D373 /* MirrorMirrorTests.h */; };
+		758E50EF129B20500083D373 /* MirrorMirrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758E50EE129B20500083D373 /* MirrorMirrorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		758E50C2129B204F0083D373 /* MirrorMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrorMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758E50C5129B204F0083D373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		758E50C7129B204F0083D373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		758E50C9129B204F0083D373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		758E50CB129B204F0083D373 /* MirrorMirror-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MirrorMirror-Info.plist"; sourceTree = "<group>"; };
+		758E50CC129B204F0083D373 /* MirrorMirror-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MirrorMirror-Prefix.pch"; sourceTree = "<group>"; };
+		758E50CE129B204F0083D373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		758E50D0129B204F0083D373 /* MirrorMirror-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MirrorMirror-main.m"; sourceTree = "<group>"; };
+		758E50D2129B204F0083D373 /* MirrorMirrorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorMirrorAppDelegate.h; sourceTree = "<group>"; };
+		758E50D3129B204F0083D373 /* MirrorMirrorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorMirrorAppDelegate.m; sourceTree = "<group>"; };
+		758E50D6129B204F0083D373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		758E50D8129B204F0083D373 /* MirrorMirrorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorMirrorViewController.h; sourceTree = "<group>"; };
+		758E50D9129B204F0083D373 /* MirrorMirrorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorMirrorViewController.m; sourceTree = "<group>"; };
+		758E50DC129B204F0083D373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MirrorMirrorViewController.xib; sourceTree = "<group>"; };
+		758E50E4129B204F0083D373 /* MirrorMirrorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorMirrorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758E50E8129B204F0083D373 /* MirrorMirrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MirrorMirrorTests-Info.plist"; sourceTree = "<group>"; };
+		758E50E9129B204F0083D373 /* MirrorMirrorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MirrorMirrorTests-Prefix.pch"; sourceTree = "<group>"; };
+		758E50EA129B204F0083D373 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/MirrorMirrorTests/InfoPlist.strings; sourceTree = "<group>"; };
+		758E50EC129B20500083D373 /* MirrorMirrorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorMirrorTests.h; sourceTree = "<group>"; };
+		758E50EE129B20500083D373 /* MirrorMirrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorMirrorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758E50BF129B204F0083D373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50C6129B204F0083D373 /* UIKit.framework in Frameworks */,
+				758E50C8129B204F0083D373 /* Foundation.framework in Frameworks */,
+				758E50CA129B204F0083D373 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E50E0129B204F0083D373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50E5129B204F0083D373 /* UIKit.framework in Frameworks */,
+				758E50E6129B204F0083D373 /* Foundation.framework in Frameworks */,
+				758E50E7129B204F0083D373 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758E50B3129B204F0083D373 = {
+			isa = PBXGroup;
+			children = (
+				758E50BA129B204F0083D373 /* Classes */,
+				758E50BB129B204F0083D373 /* Other Sources */,
+				758E50BC129B204F0083D373 /* Resources */,
+				758E50BD129B204F0083D373 /* Frameworks */,
+				758E50C3129B204F0083D373 /* Products */,
+				758E50DE129B204F0083D373 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		758E50BA129B204F0083D373 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				758E50D2129B204F0083D373 /* MirrorMirrorAppDelegate.h */,
+				758E50D3129B204F0083D373 /* MirrorMirrorAppDelegate.m */,
+				758E50D8129B204F0083D373 /* MirrorMirrorViewController.h */,
+				758E50D9129B204F0083D373 /* MirrorMirrorViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		758E50BB129B204F0083D373 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				758E50CC129B204F0083D373 /* MirrorMirror-Prefix.pch */,
+				758E50D0129B204F0083D373 /* MirrorMirror-main.m */,
+				758E50E9129B204F0083D373 /* MirrorMirrorTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		758E50BC129B204F0083D373 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				758E50CB129B204F0083D373 /* MirrorMirror-Info.plist */,
+				758E50CD129B204F0083D373 /* InfoPlist.strings */,
+				758E50D5129B204F0083D373 /* MainWindow.xib */,
+				758E50DB129B204F0083D373 /* MirrorMirrorViewController.xib */,
+				758E50E8129B204F0083D373 /* MirrorMirrorTests-Info.plist */,
+				758E50EA129B204F0083D373 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		758E50BD129B204F0083D373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758E50C5129B204F0083D373 /* UIKit.framework */,
+				758E50C7129B204F0083D373 /* Foundation.framework */,
+				758E50C9129B204F0083D373 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		758E50C3129B204F0083D373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758E50C2129B204F0083D373 /* MirrorMirror.app */,
+				758E50E4129B204F0083D373 /* MirrorMirrorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758E50DE129B204F0083D373 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				758E50EC129B20500083D373 /* MirrorMirrorTests.h */,
+				758E50EE129B20500083D373 /* MirrorMirrorTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758E50C1129B204F0083D373 /* MirrorMirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758E50F4129B20500083D373 /* Build configuration list for PBXNativeTarget "MirrorMirror" */;
+			buildPhases = (
+				758E50BE129B204F0083D373 /* Sources */,
+				758E50BF129B204F0083D373 /* Frameworks */,
+				758E50C0129B204F0083D373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrorMirror;
+			productName = MirrorMirror;
+			productReference = 758E50C2129B204F0083D373 /* MirrorMirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758E50E3129B204F0083D373 /* MirrorMirrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758E50F7129B20500083D373 /* Build configuration list for PBXNativeTarget "MirrorMirrorTests" */;
+			buildPhases = (
+				758E50DF129B204F0083D373 /* Sources */,
+				758E50E0129B204F0083D373 /* Frameworks */,
+				758E50E1129B204F0083D373 /* Resources */,
+				758E50E2129B204F0083D373 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrorMirrorTests;
+			productName = MirrorMirrorTests;
+			productReference = 758E50E4129B204F0083D373 /* MirrorMirrorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758E50B5129B204F0083D373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = arconsis;
+			};
+			buildConfigurationList = 758E50B8129B204F0083D373 /* Build configuration list for PBXProject "MirrorMirror" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 758E50B3129B204F0083D373;
+			productRefGroup = 758E50C3129B204F0083D373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758E50C1129B204F0083D373 /* MirrorMirror */,
+				758E50E3129B204F0083D373 /* MirrorMirrorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758E50C0129B204F0083D373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50CF129B204F0083D373 /* InfoPlist.strings in Resources */,
+				758E50D7129B204F0083D373 /* MainWindow.xib in Resources */,
+				758E50DD129B204F0083D373 /* MirrorMirrorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E50E1129B204F0083D373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50EB129B204F0083D373 /* InfoPlist.strings in Resources */,
+				758E50ED129B20500083D373 /* MirrorMirrorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		758E50E2129B204F0083D373 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758E50BE129B204F0083D373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50D1129B204F0083D373 /* MirrorMirror-main.m in Sources */,
+				758E50D4129B204F0083D373 /* MirrorMirrorAppDelegate.m in Sources */,
+				758E50DA129B204F0083D373 /* MirrorMirrorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E50DF129B204F0083D373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E50EF129B20500083D373 /* MirrorMirrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		758E50CD129B204F0083D373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758E50CE129B204F0083D373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		758E50D5129B204F0083D373 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758E50D6129B204F0083D373 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		758E50DB129B204F0083D373 /* MirrorMirrorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758E50DC129B204F0083D373 /* en */,
+			);
+			name = MirrorMirrorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758E50F0129B20500083D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		758E50F1129B20500083D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		758E50F2129B20500083D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		758E50F3129B20500083D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		758E50F5129B20500083D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorMirror-Prefix.pch";
+				INFOPLIST_FILE = "MirrorMirror-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		758E50F6129B20500083D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorMirror-Prefix.pch";
+				INFOPLIST_FILE = "MirrorMirror-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		758E50F8129B20500083D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorMirrorTests-Prefix.pch";
+				INFOPLIST_FILE = "MirrorMirrorTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		758E50F9129B20500083D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorMirrorTests-Prefix.pch";
+				INFOPLIST_FILE = "MirrorMirrorTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		758E50FA129B20500083D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = MirrorMirrorTests;
+			};
+			name = Debug;
+		};
+		758E50FB129B20500083D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = MirrorMirrorTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758E50B8129B204F0083D373 /* Build configuration list for PBXProject "MirrorMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E50F0129B20500083D373 /* Debug */,
+				758E50F1129B20500083D373 /* Release */,
+				758E50F2129B20500083D373 /* Debug */,
+				758E50F3129B20500083D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758E50F4129B20500083D373 /* Build configuration list for PBXNativeTarget "MirrorMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E50F5129B20500083D373 /* Debug */,
+				758E50F6129B20500083D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758E50F7129B20500083D373 /* Build configuration list for PBXNativeTarget "MirrorMirrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E50F8129B20500083D373 /* Debug */,
+				758E50F9129B20500083D373 /* Release */,
+				758E50FA129B20500083D373 /* Debug */,
+				758E50FB129B20500083D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758E50B5129B204F0083D373 /* Project object */;
+}
