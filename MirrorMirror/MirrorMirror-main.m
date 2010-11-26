@@ -13,4 +13,5 @@ int main(int argc, char *argv[]) {
     int retVal = UIApplicationMain(argc, argv, nil, nil);
     [pool release];
     return retVal;
+//wftest
 }
